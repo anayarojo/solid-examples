@@ -1,22 +1,29 @@
 # SOLID examples
-Repositorio con ejemplos de la aplicación de los principios SOLID
 
-- S – Single Responsibility Principle (SRP)
-- O – Open/Closed Principle (OCP)
-- L – Liskov Substitution Principle (LSP)
-- I – Interface Segregation Principle (ISP)
-- D – Dependency Inversion Principle (DIP)
+Repository for see examples of SOLID principles
 
-(En español)
+### S – Single Responsibility Principle (SRP)
 
-- S ─ Principio de responsabilidad única
-- O ─ Principio de abierto/cerrado
-- L ─ Principio de sustitución de liskov
-- I ─ Principio de segregración de la interfaz
-- D ─ Principio de inversión de la dependencia
+A class should have one, and only one, reason to change. 
 
-Objetivos de SOLID
+### O – Open/Closed Principle (OCP)
 
-- Codigo más mantenible
-- Fácil de cambiar
-- Muy extensible
+A class should be open for extension, but closed for modification.
+
+### L – Liskov Substitution Principle (LSP)
+
+Derived classes must be substitutable for their base classes.
+
+### I – Interface Segregation Principle
+
+Many client-specific interfaces are better than one general-purpose interface.
+
+### D – Dependency Inversion Principle (DIP)
+
+Depend upon abstractions. Do not depend upon concretions.
+
+## Targets of SOLID
+
+- Maintanable code
+- Easy to change
+- Easy to extend
