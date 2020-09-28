@@ -14,7 +14,7 @@ A class should be open for extension, but closed for modification.
 
 Derived classes must be substitutable for their base classes.
 
-### I – Interface Segregation Principle
+### I – Interface Segregation Principle (ISP)
 
 Many client-specific interfaces are better than one general-purpose interface.
 
