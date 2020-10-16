@@ -18,6 +18,7 @@ Repositorio para ver ejemplos de los principios SOLID.
 
 ### L – Liskov Substitution Principle (LSP)
 > Las clases que hereden de otra clase deben de poder utilizar el comportamiento minimo de la clase base.
+
 > La clase base debe de tener lo que sus clases hijas pueden implemementar en común. Si hay algo extra se debe extraer a una nueva interfaz para que se implemente especificamente.
 
 [PHP](./php/03-liskov-substitution-principle.php) / 
